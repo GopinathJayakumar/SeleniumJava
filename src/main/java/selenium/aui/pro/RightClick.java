@@ -17,7 +17,7 @@ public class RightClick {
 		
 		ChromeOptions opt = new ChromeOptions();
 		//opt.addArguments("--disable-popup-blocking");
-		opt.addArguments("--disable-notifications");
+	//	opt.addArguments("--disable-notifications");
 		ChromeDriver driver = new ChromeDriver(opt);
 		
 		driver.get("https://www.myntra.com");

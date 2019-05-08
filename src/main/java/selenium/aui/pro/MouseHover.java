@@ -24,7 +24,7 @@ public class MouseHover {
 		Actions builder = new Actions(driver);
 		builder.moveToElement(electronics).perform();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementToBeClickable(apple));
+	//	wait.until(ExpectedConditions.elementToBeClickable(apple));
 		builder.click(apple).build().perform();
 
 
